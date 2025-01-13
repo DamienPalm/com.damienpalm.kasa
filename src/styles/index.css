@@ -1,0 +1,11 @@
+@import url(./reset.css);
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
