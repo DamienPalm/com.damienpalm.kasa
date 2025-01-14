@@ -3,9 +3,10 @@
     border-radius: 25px;
     margin-block: 50px;
     padding: 56px 50px;
-    gap: 50px 60px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    row-gap: 50px;
 }
 
 .main__accommodations-section__card-link {
