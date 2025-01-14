@@ -1,5 +1,6 @@
 import "../styles/Banner.css";
 
+// eslint-disable-next-line react/prop-types
 function Banner({ title, alt, picture }) {
   return (
     <div className="main__banner">
