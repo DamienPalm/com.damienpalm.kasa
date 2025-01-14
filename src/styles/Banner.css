@@ -1,0 +1,25 @@
+.main__banner {
+    max-width: 1240px;
+    height: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.main__banner__background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.6);
+}
+
+.main__banner__title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+}
