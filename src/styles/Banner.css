@@ -1,12 +1,12 @@
 .main__banner {
-    max-width: 1240px;
-    height: 223px;
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-inline: auto;
-    border-radius: 25px;
+    width: 100%;
+    height: 111px;
+    border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .main__banner__background {
@@ -20,6 +20,8 @@
 .main__banner__title {
     position: absolute;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 24px;
     color: #ffffff;
+    width: 225px;
+    margin-left: 16px;
 }
