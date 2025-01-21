@@ -1,0 +1,28 @@
+.main__error-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 113px;
+    margin-block: 113px;
+}
+
+.main__error-section__title {
+    font-weight: 700;
+    font-size: 96px;
+    color: #ff6060;
+}
+
+.main__error-section__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    width: 260px;
+    text-align: center;
+    color: #ff6060;
+}
+
+.main__error-section__link {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
