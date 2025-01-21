@@ -1,5 +1,5 @@
 .header {
-    margin: 45px 100px
+    margin: 20px;
 }
 
 .header__navbar {
@@ -8,18 +8,23 @@
     align-items: center;
 }
 
+.header__navbar__logo {
+    width: 145px;
+}
+
 .header__navbar__items {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 57px;
+    gap: 26px;
 }
 
 .header__navbar__items__link {
     text-decoration: none;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 12px;
     color: #000000;
+    text-transform: uppercase;
 
 }
 
