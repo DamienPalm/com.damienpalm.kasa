@@ -1,0 +1,91 @@
+.main__carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.main__carousel__image {
+    width: 100%;
+    height: 255px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.main__carousel__prev-button {
+    position: absolute;
+    width: 12px;
+    left: 0;
+    transform: translateX(5px);
+}
+
+.main__carousel__next-button {
+    position: absolute;
+    width: 12px;
+    right: 0;
+    transform: translateX(-5px);
+}
+
+.main__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ff6060;
+    margin-top: 16px;
+}
+
+.main__location {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main__list {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.main__list__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    background-color: #ff6060;
+    border-radius: 5px;
+    color: white;
+    min-width: 84px;
+    height: 18px;
+}
+
+.main__rating-owner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.main__owner-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.main__owner-info__identity {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ff6060;
+}
+
+.main__owner-info__profile-picture {
+    width: 32px;
+    border-radius: 100%;
+}
+
+.main__collapse__collapse-content__list {
+    list-style: none;
+}

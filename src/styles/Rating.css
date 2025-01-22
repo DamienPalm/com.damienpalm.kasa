@@ -1,0 +1,7 @@
+.main__rating {
+    display: flex;
+}
+
+.main__rating__star {
+    width: 13px;
+}

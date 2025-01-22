@@ -4,7 +4,6 @@ import AccommodationsList from "../services/api/logements.json";
 import { Link } from "react-router";
 import "../styles/Card.css";
 
-// eslint-disable-next-line react/prop-types
 function Card({ title, cover }) {
   return (
     <div className="main__accommodations-section__card">
