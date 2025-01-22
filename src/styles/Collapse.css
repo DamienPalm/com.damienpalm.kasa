@@ -57,3 +57,31 @@
         transform-origin: center top;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .main__collapse-section {
+        margin-block: 38px;
+    }
+
+    .main__collapse {
+        max-width: 1023px;
+        margin-inline: auto;
+    }
+
+    .main__collapse__title-content {
+        height: 52px;
+    }
+
+    .main__collapse__title-content__title {
+        font-size: 24px;
+    }
+
+    .main__collapse__title-content__icon {
+        width: 24px;
+    }
+
+    .main__collapse__collapse-content {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

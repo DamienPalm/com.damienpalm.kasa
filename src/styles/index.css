@@ -13,3 +13,10 @@ body {
 .main {
     margin-inline: 20px;
 }
+
+@media screen and (min-width: 1024px) {
+    .main {
+        margin-inline: 100px;
+        margin-block: 50px;
+    }
+}

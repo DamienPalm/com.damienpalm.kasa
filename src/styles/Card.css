@@ -48,3 +48,16 @@
     color: #ffffff;
     z-index: 2;
 }
+
+@media screen and (min-width: 1024px) {
+    .main__accommodations-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        background-color: #f6f6f6;
+        padding: 56px 50px;
+        border-radius: 25px;
+        row-gap: 50px;
+        column-gap: 60px;
+        margin-block: 40px;
+    }
+}

@@ -35,3 +35,24 @@
 .header__navbar__items__link.active {
     text-decoration: underline;
 }
+
+@media screen and (min-width: 1024px) {
+    .header {
+        margin-top: 45px;
+        margin-bottom: 50px;
+        margin-inline: 100px;
+    }
+
+    .header__navbar__logo {
+        width: 210px;
+    }
+
+    .header__navbar__items {
+        gap: 57px;
+    }
+
+    .header__navbar__items__link {
+        font-size: 24px;
+        text-transform: none;
+    }
+}

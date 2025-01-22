@@ -25,3 +25,17 @@
     width: 225px;
     margin-left: 16px;
 }
+
+@media screen and (min-width: 1024px) {
+    .main__banner {
+        height: 223px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .main__banner__title {
+        font-size: 48px;
+        margin-left: 0;
+        width: 100%;
+    }
+}

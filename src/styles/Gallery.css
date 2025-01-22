@@ -89,3 +89,64 @@
 .main__collapse__collapse-content__list {
     list-style: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .main__carousel__image {
+        border-radius: 25px;
+        height: 415px;
+    }
+
+    .main__carousel__prev-button {
+        width: 46px;
+        left: 0;
+        transform: translateX(24px);
+    }
+
+    .main__carousel__next-button {
+        width: 46px;
+        right: 0;
+        transform: translateX(-24px);
+    }
+
+    .main__info-section {
+        display: flex;
+        justify-content: space-between;
+        margin-block: 24px;
+    }
+
+    .main__title {
+
+        font-size: 36px;
+        line-height: 52px;
+        margin-top: 0;
+    }
+
+    .main__location {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .main__list {
+        margin-top: 20px;
+    }
+
+    .main__list__item {
+        font-size: 14px;
+        line-height: 20px;
+        border-radius: 10px;
+        min-width: 115px;
+        height: 25px;
+    }
+
+    .main__rating-owner {
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 20px;
+    }
+
+    .main__collapse-section__accommodation-page {
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
+    }
+}

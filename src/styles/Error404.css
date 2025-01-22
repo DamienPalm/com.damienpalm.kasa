@@ -26,3 +26,24 @@
     font-size: 14px;
     color: #000000;
 }
+
+@media screen and (min-width: 1024px) {
+    .main__error-section {
+        gap: 139px;
+        margin-block: 139px;
+    }
+
+    .main__error-section__title {
+        font-size: 288px;
+    }
+
+    .main__error-section__text {
+        font-size: 36px;
+        line-height: 52px;
+        width: 100%;
+    }
+
+    .main__error-section__link {
+        font-size: 18px;
+    }
+}
