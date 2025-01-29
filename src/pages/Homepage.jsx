@@ -1,8 +1,8 @@
 import Banner from "../components/Banner";
 import BannerBackground from "../assets/img/homepage_banner.png";
-import AccommodationsList from "../services/api/logements.json";
 import { Link } from "react-router";
 import "../styles/Card.css";
+import { useLogements } from "../hooks/useLogements";
 
 function Card({ title, cover }) {
   return (
@@ -18,6 +18,8 @@ function Card({ title, cover }) {
 }
 
 function Homepage() {
+  const accommodation = useLogements();
+
   return (
     <>
       <Banner
@@ -26,7 +28,7 @@ function Homepage() {
         alt="photo d'un cap avec une petite plage et une étendue d'arbre"
       />
       <section className="main__accommodations-section">
-        {AccommodationsList.map((accommodation) => (
+        {accommodation.map((accommodation) => (
           <Link
             key={accommodation.id}
             to={`/accommodation/${accommodation.id}`}
