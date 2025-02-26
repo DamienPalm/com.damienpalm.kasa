@@ -42,7 +42,7 @@ function Accommodation() {
           </div>
         </div>
       </section>
-      <section className="main__collapse-section__accommodation-page">
+      <section className="main__collapse-section">
         <Collapse title="Description" text={Accommodation.description} />
         <Collapse
           title="Equipements"
