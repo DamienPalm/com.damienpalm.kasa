@@ -144,7 +144,17 @@
         gap: 20px;
     }
 
-    .main__collapse-section__accommodation-page {
+    .main__owner-info__identity {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .main__owner-info__profile-picture {
+        width: 64px;
+    }
+
+    .main__collapse-section.accommodation-page {
         display: flex;
         flex-direction: row;
         gap: 76px;
