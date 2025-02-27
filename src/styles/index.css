@@ -12,6 +12,7 @@ body {
 
 .main {
     margin-inline: 20px;
+    min-height: calc(100vh - 299px);
 }
 
 @media screen and (min-width: 1024px) {
